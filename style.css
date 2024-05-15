@@ -1,0 +1,88 @@
+.beem{
+    display: grid;
+    column-gap: 5px;
+    padding: 0 20px 0 20px;
+  max-width: 100%;
+  color: rgb(92, 91, 91);
+ }
+header{
+    background-color: rgb(34, 117, 226);
+    color: white;
+    overflow: hidden;
+    padding-top: 30px;
+    min-height: 70px;
+  margin: auto;
+    width: 100%;
+    float: left;
+    border-bottom: rgb(34, 117, 226) 5px solid;
+    }
+    header a{
+color: aliceblue;
+text-transform: uppercase;
+font-size: 16px;
+    }
+    nav{
+      float: left;
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 30px;
+      font-weight: bolder;
+    }
+    header a:hover{
+      font-weight: 30px;
+      font-size: 20px;
+      border: 30px solid white;
+      border-radius: 20px;
+    }
+   header img{
+     width: 130px;
+     height: 50px;
+     /*padding-inline-start: 20px;
+     padding-right: 20px; */
+     padding: 0 20px 0 0;
+      }
+      nav a{
+        color: aliceblue;
+      float: left;
+    margin-left: 130px;
+  padding: 0 10px 0 10px;
+}
+head{
+  font-size: 30px;
+  font-weight: bolder;
+}
+   .container{
+    display:flexbox;
+    font-size: x-large;
+    justify-content: space-between;
+    flex: wrap;
+    max-width: 100%;
+   }
+footer{
+  background-color: rgb(34, 117, 226);
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10%;
+  color: aliceblue;
+}
+span{
+  background-color: rgb(34, 117, 226);
+  color: aliceblue;
+  background-size: 4vmax;
+  font-size: larger;
+  display: inline-block;
+}
+.title{
+  display: inline-block;
+
+}
+.fig{
+  background-color: rgb(34, 117, 226);
+  color: aliceblue;
+  align-items: center; 
+}
+img{
+  height: auto;
+  max-width: 100%;
+  size-adjust: 2vmax;
+}
